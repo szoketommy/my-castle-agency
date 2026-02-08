@@ -8,13 +8,13 @@ import { ArrowRight } from "lucide-react";
 const steps = [
   {
     number: "01",
-    title: "Start with One Cell",
+    title: "Start with One Squad",
     description: "Example: LinkedIn Ads for B2B lead generation. Prove ROI with a single, focused engagement.",
     color: "bg-[#0A1628]",
   },
   {
     number: "02",
-    title: "Add Cells Strategically",
+    title: "Add Squads Strategically",
     description: "Prove ROI, then add: TikTok (awareness) + Reddit (community) + X (thought leadership).",
     color: "bg-[#0A1628]",
   },

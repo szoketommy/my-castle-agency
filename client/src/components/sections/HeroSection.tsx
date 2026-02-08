@@ -59,7 +59,7 @@ export default function HeroSection() {
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-[#0A1628]/15 text-[#0A1628] font-bold text-sm uppercase tracking-wider rounded-sm hover:border-[#0A1628]/30 hover:bg-[#0A1628]/5 transition-all duration-200"
                 style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}
               >
-                Explore Our Cells
+                Explore Our Squads
               </a>
             </div>
 

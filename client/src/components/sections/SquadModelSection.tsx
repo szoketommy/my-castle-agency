@@ -1,5 +1,5 @@
 /*
- * Design: "Architectural Blueprint" — How the Cell Model Works.
+ * Design: "Architectural Blueprint" — How the Squad Model Works.
  * Two-column: autonomous operation + unified integration, with diagram.
  */
 import { motion } from "framer-motion";
@@ -20,7 +20,7 @@ const unified = [
   { icon: <BarChart3 className="w-5 h-5" />, title: "Centralized BI & Reporting", desc: "Single source of truth" },
 ];
 
-export default function CellModelSection() {
+export default function SquadModelSection() {
   return (
     <section className="py-24 lg:py-32 relative">
       <div className="container">
@@ -35,7 +35,7 @@ export default function CellModelSection() {
             The Architecture
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl text-[#0A1628] mb-6">
-            How the Cell Model Works
+            How the Squad Model Works
           </h2>
           <p className="text-lg text-[#9B9590] leading-relaxed" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>
             Inspired by Spotify's squad model and Haier's entrepreneurial cell structure — decentralized
@@ -43,7 +43,7 @@ export default function CellModelSection() {
           </p>
         </motion.div>
 
-        {/* Cell Model Diagram */}
+        {/* Squad Model Diagram */}
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
@@ -56,7 +56,7 @@ export default function CellModelSection() {
             <div className="absolute -bottom-3 -right-3 w-6 h-6 border-b-2 border-r-2 border-[#E8652A]/30" />
             <img
               src={IMAGES.cellModelDiagram}
-              alt="Autonomous Cell Network Architecture"
+              alt="Autonomous Squad Network Architecture"
               className="w-full h-auto rounded-sm shadow-lg"
             />
           </div>

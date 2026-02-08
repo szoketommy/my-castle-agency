@@ -15,8 +15,8 @@ export const NAV_LINKS = [
   { label: "Contact", href: "#contact" },
 ];
 
-// Foundation Cells data
-export const FOUNDATION_CELLS = [
+// Foundation Squads data
+export const FOUNDATION_SQUADS = [
   {
     title: "Marketing Automation & Lead Generation",
     description: "End-to-end lead systems integrated with RevOps.",
@@ -55,10 +55,10 @@ export const FOUNDATION_CELLS = [
   },
 ];
 
-// Growth Cells data
-export const GROWTH_CELLS = [
+// Growth Squads data
+export const GROWTH_SQUADS = [
   {
-    title: "LinkedIn Ads Cell",
+    title: "LinkedIn Ads Squad",
     description: "B2B demand generation with pipeline attribution.",
     features: [
       "Full-funnel campaigns (awareness \u2192 revenue)",
@@ -70,7 +70,7 @@ export const GROWTH_CELLS = [
     icon: "Linkedin",
   },
   {
-    title: "TikTok Business Cell",
+    title: "TikTok Business Squad",
     description: "Viral growth with conversion tracking.",
     features: [
       "Content strategy & video production",
@@ -82,7 +82,7 @@ export const GROWTH_CELLS = [
     icon: "Video",
   },
   {
-    title: "Pinterest Shopping Cell",
+    title: "Pinterest Shopping Squad",
     description: "Visual commerce with e-commerce integration.",
     features: [
       "Profile optimization & Pinterest SEO",
@@ -93,7 +93,7 @@ export const GROWTH_CELLS = [
     icon: "Image",
   },
   {
-    title: "Reddit Community Cell",
+    title: "Reddit Community Squad",
     description: "Authentic engagement with conversion tracking.",
     features: [
       "Subreddit strategy & community management",
@@ -104,7 +104,7 @@ export const GROWTH_CELLS = [
     icon: "Users",
   },
   {
-    title: "X/Twitter Growth Cell",
+    title: "X/Twitter Growth Squad",
     description: "Thought leadership with pipeline generation.",
     features: [
       "Executive ghostwriting (tweets, viral threads)",

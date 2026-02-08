@@ -1,9 +1,9 @@
 /*
  * Design: "Architectural Blueprint" — Stone block cards with thick left borders.
- * Foundation Cells (larger) + Growth Cells (compact grid).
+ * Foundation Squads (larger) + Growth Squads (compact grid).
  */
 import { motion } from "framer-motion";
-import { FOUNDATION_CELLS, GROWTH_CELLS } from "@/lib/constants";
+import { FOUNDATION_SQUADS, GROWTH_SQUADS } from "@/lib/constants";
 import {
   Shield, MessageSquare, MapPin,
   Linkedin, Video, Image, Users, Twitter,
@@ -29,7 +29,7 @@ const fadeUp = {
   }),
 };
 
-export default function CellsOverview() {
+export default function SquadsOverview() {
   return (
     <section id="services" className="py-24 lg:py-32 relative">
       <div className="container">
@@ -45,7 +45,7 @@ export default function CellsOverview() {
             The Armory
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl text-[#0A1628] mb-6">
-            Specialized Cells, Unified Revenue Engine
+            Specialized Squads, Unified Revenue Engine
           </h2>
           <p className="text-lg text-[#9B9590] leading-relaxed" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>
             Unlike traditional agencies that operate in silos, we've architected autonomous specialist
@@ -54,7 +54,7 @@ export default function CellsOverview() {
           </p>
         </motion.div>
 
-        {/* Foundation Cells */}
+        {/* Foundation Squads */}
         <div className="mb-20">
           <motion.h3
             initial={{ opacity: 0 }}
@@ -64,11 +64,11 @@ export default function CellsOverview() {
             style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}
           >
             <span className="w-8 h-px bg-[#0A1628]/20" />
-            Foundation Cells — Revenue Infrastructure
+            Foundation Squads — Revenue Infrastructure
           </motion.h3>
 
           <div className="grid md:grid-cols-3 gap-6">
-            {FOUNDATION_CELLS.map((cell, i) => (
+            {FOUNDATION_SQUADS.map((cell, i) => (
               <motion.div
                 key={cell.title}
                 custom={i}
@@ -108,7 +108,7 @@ export default function CellsOverview() {
           </div>
         </div>
 
-        {/* Growth Cells */}
+        {/* Growth Squads */}
         <div>
           <motion.h3
             initial={{ opacity: 0 }}
@@ -118,11 +118,11 @@ export default function CellsOverview() {
             style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}
           >
             <span className="w-8 h-px bg-[#0A1628]/20" />
-            Growth Cells — Channel Specialists
+            Growth Squads — Channel Specialists
           </motion.h3>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5">
-            {GROWTH_CELLS.map((cell, i) => (
+            {GROWTH_SQUADS.map((cell, i) => (
               <motion.div
                 key={cell.title}
                 custom={i}

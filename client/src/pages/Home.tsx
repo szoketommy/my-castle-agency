@@ -1,8 +1,8 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/sections/HeroSection";
-import CellsOverview from "@/components/sections/CellsOverview";
+import SquadsOverview from "@/components/sections/SquadsOverview";
 import RevOpsDifference from "@/components/sections/RevOpsDifference";
-import CellModelSection from "@/components/sections/CellModelSection";
+import SquadModelSection from "@/components/sections/SquadModelSection";
 import ResultsSection from "@/components/sections/ResultsSection";
 import WhoWeServe from "@/components/sections/WhoWeServe";
 import EcosystemSection from "@/components/sections/EcosystemSection";
@@ -15,9 +15,9 @@ export default function Home() {
     <div className="min-h-screen bg-[#F5F3EF]">
       <Navbar />
       <HeroSection />
-      <CellsOverview />
+      <SquadsOverview />
       <RevOpsDifference />
-      <CellModelSection />
+      <SquadModelSection />
       <ResultsSection />
       <WhoWeServe />
       <EcosystemSection />
